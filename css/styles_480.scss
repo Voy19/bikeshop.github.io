@@ -1,0 +1,118 @@
+
+@media only screen and (max-width: 480px) {
+	.header {
+		#menu {
+			width: 100%;
+
+			ul {
+				margin-top: 41px;
+				border-radius: 0;
+
+				.icon {
+					top: 9px;
+				}
+			}
+
+			.responsive {
+				.icon {
+					top: 9px;
+				}
+			}
+		}
+	}
+
+	.information {
+		h1 {
+			font-size: 30px;
+		}
+
+		p {
+			font-size: 15px;
+		}
+	}
+
+	.button {
+		width: 12%;
+	}
+
+	.categories {
+		padding-bottom: 3vh;
+
+		h1 {
+			margin-top: 3vh;
+			margin-bottom: 2vh;
+		}
+
+		.container {
+			width: 100%;
+		}
+
+		.blocks_categories {
+			flex-wrap: wrap;
+			justify-content: center;
+
+			.block {
+				width: 100%;
+				margin: 1%;
+
+				.information_categories {
+					h2 {
+						font-size: 18px;
+					}
+
+					p {
+						font-size: 15px;
+					}
+				}
+
+				input {
+					height: 7vh;
+				}
+			}
+		}
+	}
+
+	.popular_bikes {
+		padding-bottom: 2vh;
+
+		h1 {
+			margin-top: 3vh;
+		}
+
+		.block_popular {
+			flex-wrap: wrap;
+			justify-content: center;
+
+			.block_bike {
+				width: 100%;
+				margin: 0 10px;
+			}
+		}
+	}
+
+	.about_us {
+		padding-bottom: 2vh;
+
+		.wrap {
+			width: 80%;
+		}
+	}
+
+	footer {
+		.container {
+			width: 80%;
+		}
+
+		.footer_information {
+			.logo {
+				position: absolute;
+				left: 50%;
+				transform: translateX(-50%);
+			}
+
+			.menu {
+				display: none;
+			}
+		}
+	}
+}

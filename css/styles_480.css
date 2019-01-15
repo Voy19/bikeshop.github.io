@@ -1,0 +1,57 @@
+@media only screen and (max-width: 480px) {
+  .header #menu {
+    width: 100%; }
+    .header #menu ul {
+      margin-top: 41px;
+      border-radius: 0; }
+      .header #menu ul .icon {
+        top: 9px; }
+    .header #menu .responsive .icon {
+      top: 9px; }
+  .information h1 {
+    font-size: 30px; }
+  .information p {
+    font-size: 15px; }
+  .button {
+    width: 12%; }
+  .categories {
+    padding-bottom: 3vh; }
+    .categories h1 {
+      margin-top: 3vh;
+      margin-bottom: 2vh; }
+    .categories .container {
+      width: 100%; }
+    .categories .blocks_categories {
+      flex-wrap: wrap;
+      justify-content: center; }
+      .categories .blocks_categories .block {
+        width: 100%;
+        margin: 1%; }
+        .categories .blocks_categories .block .information_categories h2 {
+          font-size: 18px; }
+        .categories .blocks_categories .block .information_categories p {
+          font-size: 15px; }
+        .categories .blocks_categories .block input {
+          height: 7vh; }
+  .popular_bikes {
+    padding-bottom: 2vh; }
+    .popular_bikes h1 {
+      margin-top: 3vh; }
+    .popular_bikes .block_popular {
+      flex-wrap: wrap;
+      justify-content: center; }
+      .popular_bikes .block_popular .block_bike {
+        width: 100%;
+        margin: 0 10px; }
+  .about_us {
+    padding-bottom: 2vh; }
+    .about_us .wrap {
+      width: 80%; }
+  footer .container {
+    width: 80%; }
+  footer .footer_information .logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); }
+  footer .footer_information .menu {
+    display: none; } }

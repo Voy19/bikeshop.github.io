@@ -1,0 +1,7 @@
+@media only screen and (max-width: 992px) {
+  .categories .blocks_categories {
+    flex-wrap: wrap;
+    justify-content: center; }
+    .categories .blocks_categories .block {
+      width: 80%;
+      margin: 1%; } }

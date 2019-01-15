@@ -1,0 +1,242 @@
+@media only screen and (max-width: 768px) {
+	.container {
+		width: 100%;
+	}
+
+	.header {
+		width: 100%;
+		margin-top: 10px;
+		align-items: flex-start;
+
+		.logo {
+			width: 130px;
+			margin-left: 3%;
+		}
+
+		#menu {
+			right: 0;
+			z-index: 20;
+			position: absolute;
+			width: 50%;
+
+			ul {
+				background-color: gray;
+				opacity: 0.7;
+				width: 100%;
+				margin-top: 42px;
+				flex-direction: column;
+				border-radius: 10px 0 0 10px;
+
+				li {
+					display: none;
+					color: #fff;
+					text-align: center;
+					border-radius: 0;
+
+					&:hover {
+						background-color: #000;
+
+						&:first-child {
+							border-radius: 10px 0 0 0;
+						}
+					}
+
+					a {
+						font-size: 15px;
+
+						&:hover {
+							transform: none;
+							color: #fff;
+						}
+					}
+				}
+
+				.last {
+					&:hover {
+						border-radius: 0 0 0 10px;
+					}
+				}
+
+				.icon {
+					opacity: 1;
+					display: block;
+					position: absolute;
+					right: 0;
+					top: 10px;
+					border-radius: 10px;
+					background-color: rgba(251, 252, 254, 0.8);
+					padding: 0;
+				}
+			}
+
+			.responsive {
+				li {
+					position: relative;
+					display: block;
+				}
+
+				li:last-child {
+					background-color: none;
+				}
+
+				.icon {
+					position: absolute;
+					top: 10px;
+					right: 0;
+				}
+			}
+		}
+	}
+
+	#menu ul li:hover>ul {
+		display: none;
+	}
+
+	#next,
+	#prev {
+		display: none;
+	}
+
+	.information {
+		width: 100%;
+
+		h1 {
+			font-size: 35px;
+			margin-bottom: 0;
+		}
+
+		p {
+			font-size: 20px;
+		}
+
+		button {
+			border-radius: 10px;
+			width: 114px;
+			height: 33px;
+			font-size: 11px;
+			cursor: pointer;
+			margin-top: 15px;
+		}
+	}
+
+	.button {
+		width: 7%;
+	}
+
+	.categories {
+		padding-bottom: 5vh;
+
+		h1 {
+			margin-top: 5vh;
+			margin-bottom: 3vh;
+		}
+
+		.container {
+			width: 100%;
+		}
+
+		.blocks_categories {
+			flex-wrap: wrap;
+			justify-content: center;
+
+			.block {
+				width: 70%;
+				margin: 1%;
+
+				.information_categories {
+					h2 {
+						font-size: 22px;
+					}
+
+					p {
+						font-size: 18px;
+					}
+				}
+
+				input {
+					height: 15vh;
+					font-size: 15px;
+				}
+			}
+		}
+	}
+
+	.popular_bikes {
+		padding-bottom: 3vh;
+
+		h1 {
+			margin-top: 5vh;
+		}
+
+		.block_popular {
+			padding-bottom: 3vh;
+			flex-wrap: wrap;
+			justify-content: center;
+
+			.block_bike {
+				width: 80%;
+				margin: 0 10px;
+
+				.price {
+					h3 {
+						font-size: 11px;
+					}
+
+					p {
+						font-size: 11px;
+					}
+				}
+			}
+		}
+	}
+
+	.about_us {
+		padding-bottom: 3vh;
+
+		h1 {
+			margin-top: 3vh;
+		}
+
+		p {
+			margin-top: 2vh;
+		}
+
+		.wrap {
+			width: 80%;
+
+			.form_block {
+				.form {
+					.name__surname {
+						margin-top: 5vh;
+					}
+				}
+			}
+
+			.button_form {
+				margin-top: 1vh;
+			}
+		}
+	}
+
+	footer {
+		.container {
+			width: 80%;
+		}
+
+		height: 50px;
+
+		.footer_information {
+			.menu {
+				ul {
+					li {
+						padding-right: 14px;
+
+						a {
+							font-size: 10px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
